@@ -8,7 +8,7 @@ if i don't know how something works, there's a good chance i'll try building one
 
 ---
 
-# 🚀 featured projects
+# featured projects
 
 ## 🖥️ Nara
 A keyboard-first terminal emulator built with **Rust + Tauri**.
