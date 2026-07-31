@@ -1,123 +1,128 @@
-# Hi! I'm Aneesh
+# Hi! I'm Aneesh 👋
 
-computer science student.
+Computer science student.
 
-i enjoy building developer tools, backend infrastructure and systems software.
+I enjoy building developer tools, backend infrastructure, and systems software.
 
-if i don't know how something works, there's a good chance i'll try building one.
+If I don't know how something works, there's a 99.9% chance I'll spend 3 days building a broken version of it from scratch just to find out.
+
+> currently trying to replace *"it works on my machine"* with *"it works everywhere"* (or at least until Nix breaks).
 
 ---
 
-# featured projects
+# 🛠️ featured projects
 
 ## 🖥️ Nara
 A keyboard-first terminal emulator built with **Rust + Tauri**.
 
 Currently implementing:
-- Multi-tab support
-- Split panes
-- PTY management
-- GPU-accelerated rendering
-- Keyboard-driven workflow
+- Multi-tab support & split panes
+- PTY management & GPU-accelerated rendering
+- Keyboard-driven workflow for vim-addicts
 
-> Learning how terminals actually work instead of treating them like magic.
+> Learning how terminals actually work instead of treating them like black magic and `/dev/null`.
+
+---
+
+## ❄️ `.dotfiles` & `nara-cli`
+A fully declarative, reproducible macOS system architecture engineered with **Nix Flakes**, `nix-darwin`, and `home-manager`.
+
+Features:
+- **`nara-cli`**: A bespoke CLI workflow engine written in **Go** to handle system rebuilds (`nara rebuild`), health diagnostics (`nara doctor`), Nix store optimization (`nara clean`), and ephemeral package execution (`nara run`).
+- **Zero Imperative Drift**: Rebuilding enforces exact system state, GUI apps, and shell aliases.
+- **Hermetic Dev Environments**: Pre-configured `direnv` + `nix-direnv` for instant, zero-pollution shell environments.
+
+> Because reinstalling macOS shouldn't mean spending 6 hours running `brew install` and forgetting your `.zshrc`.
 
 ---
 
 ## 📡 WhisperNet
 An offline-first peer-to-peer mesh communication platform.
 
-Built for situations where traditional communication fails.
+Built for situations where traditional communication fails (or your Wi-Fi router gets hit by lightning).
 
-Features include:
-- Local Wi-Fi mesh networking
-- WebRTC peer-to-peer communication
-- QR-based offline synchronization
-- Cryptographically signed messages
-- Stealth mode
-- Progressive Web App
+Features:
+- Local Wi-Fi mesh networking & WebRTC P2P communication
+- QR-based offline synchronization & cryptographically signed messages
+- Stealth mode & Progressive Web App (PWA) support
 
-> Because communication shouldn't depend on one server staying alive.
+> Because communication shouldn't depend on one cloud server staying alive in Virginia.
 
 ---
 
 ## 🌉 ByteBridge
-A secure peer-to-peer file transfer utility written in Go.
+A secure peer-to-peer file transfer utility written in **Go**.
 
 Designed to make sending files between computers simple—whether they're on the same Wi-Fi or across the internet.
 
 Features:
-- Direct LAN transfers
-- Relay-based remote transfers
-- Cross-platform binaries
-- Secure session IDs
-- Future end-to-end encryption
-- Planned NAT traversal (STUN/TURN)
+- Direct LAN transfers & relay-based remote transfers
+- Cross-platform binaries & secure session IDs
+- Planned end-to-end encryption and NAT traversal (STUN/TURN)
 
-> Moving bytes from A → B shouldn't require uploading them to someone else's cloud.
+> Moving bytes from A → B shouldn't require uploading them to someone else's cloud bucket.
 
 ---
 
 ## 🪵 Loom
 A distributed log aggregation platform.
 
-Real-time ingestion, semantic search, vector embeddings and AI-assisted querying.
+Featuring real-time ingestion, semantic search, vector embeddings, and AI-assisted querying.
 
-Making production logs slightly less terrifying.
+> Making production logs slightly less terrifying when production inevitably catches fire at 2 AM.
 
 ---
 
 ## 🛒 Ecommerce Backend
-A production-style backend built in Go.
+A production-style backend built in **Go**.
 
 Featuring:
-- Authentication
-- Refresh Tokens
-- PostgreSQL
-- Docker
-- Clean Architecture
-- Repository Pattern
+- Authentication & Refresh Token flows
+- PostgreSQL, Docker, Clean Architecture & Repository Pattern
 
-Built to learn how real backend systems are designed.
+> Built to learn how real backend systems are designed before someone forces me to maintain a monolith.
 
 ---
 
 # 🌱 currently learning
 
-🦀 Rust
+🦀 **Rust** *(learning to fight the borrow checker and win)*
 
-🐹 Go
+🐹 **Go** *(goroutines go brrr)*
 
-⚙️ Operating Systems
+⚙️ **Operating Systems & Kernel Magic**
 
-🌐 Distributed Systems
+🌐 **Distributed Systems & Consensus Algorithms**
 
-💾 Database Internals
+💾 **Database Internals & B-Trees**
 
-🖥️ Terminal Internals
+🖥️ **Terminal Internals & PTY Pseudo-terminals**
 
-❄️ Becoming a certified Nix enjoyer™
+❄️ **Nix Flakes & NixOS** *(graduating from Nix enjoyer™ to Nix wizard)*
 
 ---
 
-# 🛠️ toolbox
+# 🧰 toolbox
 
-Languages
+### Languages
+Go • Rust • TypeScript • SQL • Nix
 
-Go • Rust • TypeScript • SQL
+### Backend & Storage
+PostgreSQL • Docker • REST • gRPC • Redis
 
-Backend
+### Systems & DevOps
+Nix Flakes • nix-darwin • Home Manager • Linux • Git
 
-PostgreSQL • Docker • REST • gRPC
-
-Frontend
-
+### Frontend
 React • Tauri
 
-Daily Drivers
-
-Linux • Nix • Git • Neovim
+### Daily Drivers
+macOS / Linux • Nix • Neovim • Ghostty • AeroSpace
 
 ---
 
-> currently trying to replace "it works on my machine" with "it works everywhere."
+<div align="center">
+
+*"There are two hard things in computer science: cache invalidation, naming things, and configuring Nix Flakes without crying."*
+
+</div>
