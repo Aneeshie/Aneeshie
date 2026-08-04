@@ -139,8 +139,8 @@ macOS / Linux • Nix • Neovim • Ghostty • AeroSpace
 <div align="center">
 
   <!-- Contribution Streak -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aneeshie&theme=gruvbox&hide_border=true" alt="Aneeshie Streak Stats" height="150" />
-  
+  <img src="https://streak-stats.demolab.com/?user=Aneeshie&theme=gruvbox&hide_border=true" alt="Aneeshie Streak Stats" height="150" />
+
   <!-- Overall Stats (Commits, PRs, Issues, Stars) -->
   <img src="https://github-readme-stats.vercel.app/api?username=Aneeshie&show_icons=true&theme=gruvbox&hide_border=true&count_private=true" alt="Aneeshie GitHub Stats" height="150" />
 
