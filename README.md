@@ -133,6 +133,28 @@ macOS / Linux • Nix • Neovim • Ghostty • AeroSpace
 
 ---
 
+---
+# 📊 Activity & Stats
+
+<div align="center">
+
+  <!-- Contribution Streak -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aneeshie&theme=gruvbox&hide_border=true" alt="Aneeshie Streak Stats" height="150" />
+  
+  <!-- Overall Stats (Commits, PRs, Issues, Stars) -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Aneeshie&show_icons=true&theme=gruvbox&hide_border=true&count_private=true" alt="Aneeshie GitHub Stats" height="150" />
+
+</div>
+
+<br />
+
+<div align="center">
+
+  <!-- Most Used Languages Card -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aneeshie&layout=compact&theme=gruvbox&hide_border=true&langs_count=6" alt="Top Languages" height="150" />
+
+</div>
+
 <div align="center">
 
 *"There are two hard things in computer science: cache invalidation, naming things, and configuring Nix Flakes without crying."*
