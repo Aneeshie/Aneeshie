@@ -12,41 +12,12 @@ If I don't know how something works, there's a 99.9% chance I'll spend 3 days bu
 
 # 🛠️ featured projects
 
-## 🖥️ Nara
-A keyboard-first terminal emulator built with **Rust + Tauri**.
+## 🪵 Loom
+A distributed log aggregation platform.
 
-Currently implementing:
-- Multi-tab support & split panes
-- PTY management & GPU-accelerated rendering
-- Keyboard-driven workflow for vim-addicts
+Featuring real-time ingestion, semantic search, vector embeddings, and AI-assisted querying.
 
-> Learning how terminals actually work instead of treating them like black magic and `/dev/null`.
-
----
-
-## ❄️ `.dotfiles` & `nara-cli`
-A fully declarative, reproducible macOS system architecture engineered with **Nix Flakes**, `nix-darwin`, and `home-manager`.
-
-Features:
-- **`nara-cli`**: A bespoke CLI workflow engine written in **Go** to handle system rebuilds (`nara rebuild`), health diagnostics (`nara doctor`), Nix store optimization (`nara clean`), and ephemeral package execution (`nara run`).
-- **Zero Imperative Drift**: Rebuilding enforces exact system state, GUI apps, and shell aliases.
-- **Hermetic Dev Environments**: Pre-configured `direnv` + `nix-direnv` for instant, zero-pollution shell environments.
-
-> Because reinstalling macOS shouldn't mean spending 6 hours running `brew install` and forgetting your `.zshrc`.
-
----
-
-## 📡 WhisperNet
-An offline-first peer-to-peer mesh communication platform.
-
-Built for situations where traditional communication fails (or your Wi-Fi router gets hit by lightning).
-
-Features:
-- Local Wi-Fi mesh networking & WebRTC P2P communication
-- QR-based offline synchronization & cryptographically signed messages
-- Stealth mode & Progressive Web App (PWA) support
-
-> Because communication shouldn't depend on one cloud server staying alive in Virginia.
+> Making production logs slightly less terrifying when production inevitably catches fire at 2 AM.
 
 ---
 
@@ -64,12 +35,53 @@ Features:
 
 ---
 
-## 🪵 Loom
-A distributed log aggregation platform.
+### 🎞️ FrameShift
+A fast, zero-dependency CLI tool for batch video conversion built with **Go + FFmpeg**.
 
-Featuring real-time ingestion, semantic search, vector embeddings, and AI-assisted querying.
+Features:
+- Instant execution via Nix (`nix run github:Aneeshie/video-converter`)
+- Single-file and batch directory processing
+- Integrated natively into `nara-cli`
 
-> Making production logs slightly less terrifying when production inevitably catches fire at 2 AM.
+> *Because remembering raw `ffmpeg` flags is an unnecessary cognitive load.*
+
+---
+
+## ❄️ `.dotfiles` & `nara-cli`
+A fully declarative, reproducible macOS system architecture engineered with **Nix Flakes**, `nix-darwin`, and `home-manager`.
+
+Features:
+- **`nara-cli`**: A bespoke CLI workflow engine written in **Go** to handle system rebuilds (`nara rebuild`), health diagnostics (`nara doctor`), Nix store optimization (`nara clean`), and ephemeral package execution (`nara run`).
+- **Zero Imperative Drift**: Rebuilding enforces exact system state, GUI apps, and shell aliases.
+- **Hermetic Dev Environments**: Pre-configured `direnv` + `nix-direnv` for instant, zero-pollution shell environments.
+
+> Because reinstalling macOS shouldn't mean spending 6 hours running `brew install` and forgetting your `.zshrc`.
+
+---
+
+## 🖥️ Nara
+A keyboard-first terminal emulator built with **Rust + Tauri**.
+
+Currently implementing:
+- Multi-tab support & split panes
+- PTY management & GPU-accelerated rendering
+- Keyboard-driven workflow for vim-addicts
+
+> Learning how terminals actually work instead of treating them like black magic and `/dev/null`.
+
+---
+
+## 📡 WhisperNet
+An offline-first peer-to-peer mesh communication platform.
+
+Built for situations where traditional communication fails (or your Wi-Fi router gets hit by lightning).
+
+Features:
+- Local Wi-Fi mesh networking & WebRTC P2P communication
+- QR-based offline synchronization & cryptographically signed messages
+- Stealth mode & Progressive Web App (PWA) support
+
+> Because communication shouldn't depend on one cloud server staying alive in Virginia.
 
 ---
 
