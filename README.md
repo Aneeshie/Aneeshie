@@ -35,6 +35,19 @@ Features:
 
 ---
 
+## ♜ Rook
+A minimal, keyboard-driven terminal for macOS, built with **Rust + Tauri + React**.
+
+What it does:
+- Split panes, tabs & workspaces, all on vim keys
+- Session restore: layouts and folders come back on launch
+- Shell integration: git branch, current folder, failed commands marked inline
+- Themes: Tokyo Night, Rosé Pine, Catppuccin
+
+> Started as "how hard can split panes be?" and turned into learning how terminals actually work, one escape sequence at a time.
+
+---
+
 ### 🎞️ FrameShift
 A fast, zero-dependency CLI tool for batch video conversion built with **Go + FFmpeg**.
 
@@ -56,18 +69,6 @@ Features:
 - **Hermetic Dev Environments**: Pre-configured `direnv` + `nix-direnv` for instant, zero-pollution shell environments.
 
 > Because reinstalling macOS shouldn't mean spending 6 hours running `brew install` and forgetting your `.zshrc`.
-
----
-
-## 🖥️ Nara
-A keyboard-first terminal emulator built with **Rust + Tauri**.
-
-Currently implementing:
-- Multi-tab support & split panes
-- PTY management & GPU-accelerated rendering
-- Keyboard-driven workflow for vim-addicts
-
-> Learning how terminals actually work instead of treating them like black magic and `/dev/null`.
 
 ---
 
