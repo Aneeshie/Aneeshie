@@ -103,7 +103,7 @@ Featuring:
 
 🐹 **Go** *(goroutines go brrr)*
 
-⚙️ **Operating Systems*
+⚙️ **Operating Systems**
 
 🌐 **Distributed Systems & Consensus Algorithms**
 
