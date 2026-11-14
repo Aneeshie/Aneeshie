@@ -99,19 +99,17 @@ Featuring:
 
 # 🌱 currently learning
 
-🦀 **Rust** *(learning to fight the borrow checker and win)*
+🦀 **Rust**
 
 🐹 **Go** *(goroutines go brrr)*
 
-⚙️ **Operating Systems & Kernel Magic**
+⚙️ **Operating Systems*
 
 🌐 **Distributed Systems & Consensus Algorithms**
 
 💾 **Database Internals & B-Trees**
 
-🖥️ **Terminal Internals & PTY Pseudo-terminals**
-
-❄️ **Nix Flakes & NixOS** *(graduating from Nix enjoyer™ to Nix wizard)*
+❄️ **Nix Flakes & NixOS**
 
 ---
 
